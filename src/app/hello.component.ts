@@ -30,7 +30,6 @@ export class HelloComponent implements OnInit {
       this.keyword,
       this.contentType
     );
-    console.log(contents);
     this.setKeywords(contents);
     this.setContentTypes(contents);
   }
